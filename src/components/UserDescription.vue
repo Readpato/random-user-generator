@@ -8,6 +8,7 @@ export default {
       location: "Loading...",
       email: "Loading...",
       imgSource: "#",
+      gender: "",
     };
   },
   mounted() {
@@ -23,6 +24,7 @@ export default {
       this.location = results[0].location.city;
       this.email = results[0].email;
       this.imgSource = results[0].picture.large;
+      this.gender = results[0].gender;
     },
   },
 };
@@ -30,7 +32,11 @@ export default {
 
 <template>
   <div class="user-description">
-    <img :src="`${imgSource}`" :alt="`Image of ${firstName} ${lastName}`" />
+    <img
+      :class="gender"
+      :src="imgSource"
+      :alt="`Image of ${firstName} ${lastName}`"
+    />
     <h2>{{ firstName }} {{ lastName }}</h2>
     <p><strong>City: </strong> {{ location }}</p>
     <p>{{ email }}</p>
@@ -52,7 +58,6 @@ export default {
 
   img {
     border-radius: 50%;
-    border: 2px solid black;
   }
 
   button {
@@ -69,6 +74,14 @@ export default {
 
   button:hover {
     background-color: $buttonHoverColor;
+  }
+
+  .male {
+    border: 5px solid #aba96a;
+  }
+
+  .female {
+    border: 5px solid #f7bec1;
   }
 }
 .user-description > * {
