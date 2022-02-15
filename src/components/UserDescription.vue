@@ -65,7 +65,7 @@ export default {
     background-color: $buttonColor;
     padding: 0.6rem;
     border-radius: 0.6em;
-    color: white;
+    color: $buttonTextColor;
     border: none;
     cursor: pointer;
     transition: background-color ease-in 0.1s;
@@ -77,11 +77,11 @@ export default {
   }
 
   .male {
-    border: 5px solid #aba96a;
+    border: 5px solid $maleBorderColor;
   }
 
   .female {
-    border: 5px solid #f7bec1;
+    border: 5px solid $femaleBorderColor;
   }
 }
 .user-description > * {
