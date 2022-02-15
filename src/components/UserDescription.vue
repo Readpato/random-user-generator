@@ -32,7 +32,7 @@ export default {
   <div class="user-description">
     <img :src="`${imgSource}`" :alt="`Image of ${firstName} ${lastName}`" />
     <h2>{{ firstName }} {{ lastName }}</h2>
-    <p>City: {{ location }}</p>
+    <p><strong>City: </strong> {{ location }}</p>
     <p>{{ email }}</p>
     <button @click="getRandomUser">Get Random User</button>
   </div>
@@ -49,6 +49,27 @@ export default {
   flex-direction: column;
   padding: 1rem;
   text-align: center;
+
+  img {
+    border-radius: 50%;
+    border: 2px solid black;
+  }
+
+  button {
+    margin-top: 1rem;
+    background-color: $buttonColor;
+    padding: 0.6rem;
+    border-radius: 0.6em;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color ease-in 0.1s;
+    font-size: 1rem;
+  }
+
+  button:hover {
+    background-color: $buttonHoverColor;
+  }
 }
 .user-description > * {
   margin: 0.3rem 0;

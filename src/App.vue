@@ -14,8 +14,9 @@ export default {
   </div>
 </template>
 
-<style>
+<style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+// @import "@/assets/scss/_variables.scss";
 
 * {
   margin: 0;
@@ -27,19 +28,18 @@ body {
   font-family: "Poppins", sans-serif;
   height: auto;
   width: 100%;
-  background-color: #f4fdd9;
+  background-color: $bodyColor;
 }
 
 .container {
-  background-color: #e4ffe1;
+  background-color: $containerColor;
   min-width: 350px;
   max-width: 375px;
-  height: auto;
   min-height: 300px;
+  height: auto;
   margin: 1rem auto;
   display: block;
   border-radius: 1rem;
-  box-shadow: 1px 1px 5px black;
-  border: 2px solid black;
+  box-shadow: 4px 4px 8px black;
 }
 </style>
