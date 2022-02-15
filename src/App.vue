@@ -1,26 +1,45 @@
-<template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
-</template>
-
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import MainContent from "./components/MainContent.vue";
 
 export default {
-  name: "App",
   components: {
-    HelloWorld,
+    MainContent,
   },
 };
 </script>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<template>
+  <div class="container">
+    <MainContent />
+  </div>
+</template>
+
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: auto;
+  width: 100%;
+  background-color: #f4fdd9;
+}
+
+.container {
+  background-color: #e4ffe1;
+  min-width: 350px;
+  max-width: 375px;
+  height: auto;
+  min-height: 300px;
+  margin: 1rem auto;
+  display: block;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 5px black;
+  border: 2px solid black;
 }
 </style>
