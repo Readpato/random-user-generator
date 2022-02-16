@@ -1,4 +1,6 @@
 module.exports = {
+  publicPath:
+    process.env.NODE_ENV === "production" ? "/random-user-generator/" : "/",
   css: {
     loaderOptions: {
       sass: {
