@@ -4,7 +4,7 @@
 
 An application that brings forth random users.
 
-Try it here: <a href="#">Demo</a>
+Try it here: <a href="https://readpato.github.io/random-user-generator/">Demo</a>
 
 ### Technologies Used
 
