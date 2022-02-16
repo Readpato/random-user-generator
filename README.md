@@ -33,11 +33,11 @@ This will allow to download the dependencies you need to run the Random User Gen
 
 The Random User Generator isn't complicated. The web page will load and a random person will be already loaded.
 
-<img  src="#" align="center">
+<img  src="https://github.com/Readpato/random-user-generator/blob/main/src/images/random-user-1.PNG" align="center">
 
 If the user desires to get a new random person, they just have to click the button "Get Random User" and it will be automatically generated.
 
-<img  src="#" align="center">
+<img  src="https://github.com/Readpato/random-user-generator/blob/main/src/images/random-user-2.PNG" align="center">
 
 #
 
