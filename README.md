@@ -1,29 +1,85 @@
-# random-user-generator
+# Random User Generator
 
-## Project setup
+## Description
+
+An application that brings forth random users.
+
+Try it here: <a href="#">Demo</a>
+
+### Technologies Used
+
+For this project the technologies and tools used were:
+
+- Vue
+- SASS
+- NPM
+- Cypress
+
+#
+
+## Installation
+
+As this project runs with Vue and Cypress you will have to have NPM or anything similar and then run this little code snippet on the CLI.
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+This will allow to download the dependencies you need to run the Random User Generator properly.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+#
 
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
+## Utilization
 
-### Lints and fixes files
-```
-npm run lint
-```
+The Random User Generator isn't complicated. The web page will load and a random person will be already loaded.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+<img  src="#" align="center">
+
+If the user desires to get a new random person, they just have to click the button "Get Random User" and it will be automatically generated.
+
+<img  src="#" align="center">
+
+#
+
+## Challenges Faced
+
+- Using Vue.js for the first time!
+
+#
+
+## What I learned
+
+- Being the first time using a major framework, I learned that documentation is really important. If it's good redacted, it will help the consumer to understand concepts way faster.
+
+- Creation of Vue components named Single File Components (SFC) that encapsulates JavaScript(the logic), HTML(the template) and CSS(the style).
+
+- How to create an app instance, text interpolation (using the Mustache syntax), directive bindings as v-bind, v-on and their respective users.
+
+- How to use the Vue Developer Tools and Vue CLI.
+
+- Installing SASS as a global module to be of use for all the components of the application.
+
+#
+
+## Support
+
+If some error should appear, you can contact me through:
+
+- Twitter: @patoraedler
+- Email: patoraedler@gmail.com
+
+#
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate :)
+
+#
+
+## Author
+
+Patrick Raedler.
+
+#
