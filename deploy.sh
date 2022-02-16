@@ -23,4 +23,3 @@ git commit -m 'deploy'
 git push -f git@github.com:readpato/random-user-generator.git main:gh-pages
 
 cd -
- 
