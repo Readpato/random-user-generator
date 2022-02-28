@@ -14,7 +14,7 @@ For this project the technologies and tools used were:
 - SASS
 - NPM
 - Cypress
-- API: https://randomuser.me/
+- API: https://randomuser.me/ <a href="https://randomuser.me/">Link</a>
 
 #
 
