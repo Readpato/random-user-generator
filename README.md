@@ -14,6 +14,7 @@ For this project the technologies and tools used were:
 - SASS
 - NPM
 - Cypress
+- API: https://randomuser.me/
 
 #
 
